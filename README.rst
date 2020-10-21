@@ -25,7 +25,13 @@ Security Framework
 - `YubiKey 5-series`_ - аппаратный ключ безопасности, требуется два таких,
   от $45 каждый
 
-Что такое YubiKey? Это аппаратный ключ безопасности от компании Yubico. В первую
+Что такое YubiKey?
+
+.. figure:: assets/keys.jpg
+
+  Source https://itsfoss.com/yubikey-5c-nfc/
+
+Это аппаратный ключ безопасности от компании Yubico. В первую
 очередь он предназначен для двухфакторной аутентификации которая предельно
 толерантна к фишингу. Чтобы вы понимали насколько это крутое устройство, сразу
 скажу что мы будем генерировать приватный SSH ключ прямо внутри YubiKey, этот
@@ -550,6 +556,7 @@ https://www.apple.com/euro/mac/shared/docs/Apple_T2_Security_Chip_Overview.pdf
 Дополнительные материалы
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+- https://github.com/drduh/YubiKey-Guide
 - https://github.com/drduh/macOS-Security-and-Privacy-Guide
 
 История изменений
